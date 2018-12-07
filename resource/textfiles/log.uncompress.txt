@@ -1,0 +1,134 @@
+06-05 14:40:59.728 28640-28661/com.tc.tar.demo D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+06-05 14:40:59.764 28640-28640/com.tc.tar.demo W/InputMethodManager: startInputReason = 1
+06-05 14:41:01.095 28640-28640/com.tc.tar.demo I/InputTransport: L4:137366-e66bcac com.tc.tar.demo/com.tc.tar.demo.MainActivity (client)-1
+06-05 14:41:01.202 28640-28640/com.tc.tar.demo I/InputTransport: L4:137368-e66bcac com.tc.tar.demo/com.tc.tar.demo.MainActivity (client)-1
+06-05 14:41:01.224 28640-28640/com.tc.tar.demo I/InputTransport: L4:137370-e66bcac com.tc.tar.demo/com.tc.tar.demo.MainActivity (client)-1
+06-05 14:41:01.324 28640-28640/com.tc.tar.demo D/HwCust: Create obj success use class android.app.HwCustActivityImpl
+06-05 14:41:01.325 28640-28640/com.tc.tar.demo D/HwCust: Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+06-05 14:41:01.339 28640-28640/com.tc.tar.demo D/HwRTBlurUtils: check blur style for HwPhoneWindow-, themeResId : 0x7f0e0006, context : com.tc.tar.demo.VoTrackingActivity@4f6f1cc, Nhwext : 0, get Blur : disable with , null
+06-05 14:41:01.340 28640-28640/com.tc.tar.demo D/HwRTBlurUtils: check blur style for HwPhoneWindow-, themeResId : 0x7f0e0006, context : com.tc.tar.demo.VoTrackingActivity@4f6f1cc, Nhwext : 0, get Blur : disable with , null
+06-05 14:41:01.371 28640-28640/com.tc.tar.demo W/Config: Key 196878 is not supported!
+06-05 14:41:01.375 28640-28640/com.tc.tar.demo E/AssetHelper: getCacheDir : /data/user/0/com.tc.tar.demo/cache /data/user/0/com.tc.tar.demo/cache/Data/cacheIndex-1.txt
+06-05 14:41:01.376 28640-28640/com.tc.tar.demo I/AssetHelper: reCache: 'false
+    cacheAssetFolder(): Using cached folder 'Data'.
+06-05 14:41:01.382 28640-28640/com.tc.tar.demo D/VoTracking: copyCfgAndswitchAlgorithm ret_type=ttrack
+06-05 14:41:01.384 28640-28640/com.tc.tar.demo D/ActivityThread: add activity client record, r= ActivityRecord{1d3801d token=android.os.BinderProxy@6474fff {com.tc.tar.demo/com.tc.tar.demo.VoTrackingActivity}} token= android.os.BinderProxy@6474fff
+06-05 14:41:01.392 28640-28640/com.tc.tar.demo D/CameraApi2Provider: TIMESTAMP_SOURCE: 0
+    camera focus lens: [3.95]
+    camera max focus lens: 3.95
+    [[30, 30], [14, 30], [14, 20], [20, 20], [14, 25], [25, 25], [12, 15], [15, 15]]
+06-05 14:41:01.393 28640-28640/com.tc.tar.demo D/CameraApi2Provider: INFO_SUPPORTED_HARDWARE_LEVEL:0
+06-05 14:41:01.401 28640-28640/com.tc.tar.demo I/PermissionManager: camera remind result:true
+06-05 14:41:01.672 28640-28688/com.tc.tar.demo E/CameraCaptureSession: Session 0: Exception while stopping repeating: 
+    android.hardware.camera2.CameraAccessException: CAMERA_DISCONNECTED (2): cancelRequest:307: Camera device no longer alive
+        at android.hardware.camera2.CameraManager.throwAsPublicException(CameraManager.java:657)
+        at android.hardware.camera2.impl.ICameraDeviceUserWrapper.cancelRequest(ICameraDeviceUserWrapper.java:95)
+        at android.hardware.camera2.impl.CameraDeviceImpl.stopRepeating(CameraDeviceImpl.java:996)
+        at android.hardware.camera2.impl.CameraCaptureSessionImpl.close(CameraCaptureSessionImpl.java:391)
+        at android.hardware.camera2.impl.CameraCaptureSessionImpl$2.onDisconnected(CameraCaptureSessionImpl.java:569)
+        at android.hardware.camera2.impl.CameraDeviceImpl$7.run(CameraDeviceImpl.java:233)
+        at android.os.Handler.handleCallback(Handler.java:808)
+        at android.os.Handler.dispatchMessage(Handler.java:101)
+        at android.os.Looper.loop(Looper.java:166)
+        at android.os.HandlerThread.run(HandlerThread.java:65)
+     Caused by: android.os.ServiceSpecificException: cancelRequest:307: Camera device no longer alive (code 4)
+        at android.os.Parcel.readException(Parcel.java:1959)
+        at android.os.Parcel.readException(Parcel.java:1891)
+        at android.hardware.camera2.ICameraDeviceUser$Stub$Proxy.cancelRequest(ICameraDeviceUser.java:366)
+        at android.hardware.camera2.impl.ICameraDeviceUserWrapper.cancelRequest(ICameraDeviceUserWrapper.java:93)
+        at android.hardware.camera2.impl.CameraDeviceImpl.stopRepeating(CameraDeviceImpl.java:996) 
+        at android.hardware.camera2.impl.CameraCaptureSessionImpl.close(CameraCaptureSessionImpl.java:391) 
+        at android.hardware.camera2.impl.CameraCaptureSessionImpl$2.onDisconnected(CameraCaptureSessionImpl.java:569) 
+        at android.hardware.camera2.impl.CameraDeviceImpl$7.run(CameraDeviceImpl.java:233) 
+        at android.os.Handler.handleCallback(Handler.java:808) 
+        at android.os.Handler.dispatchMessage(Handler.java:101) 
+        at android.os.Looper.loop(Looper.java:166) 
+        at android.os.HandlerThread.run(HandlerThread.java:65) 
+06-05 14:41:01.675 28640-28688/com.tc.tar.demo D/CameraApi2Provider: camera disconnected
+06-05 14:41:01.675 28640-28779/com.tc.tar.demo I/CameraDevice-JV-0: Camera now idle
+06-05 14:41:01.680 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.685 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.692 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.700 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.706 28640-28779/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.710 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.716 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.717 28640-28640/com.tc.tar.demo W/VRSystemServiceManager: vr service is not alive
+06-05 14:41:01.721 28640-28779/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.731 28640-28688/com.tc.tar.demo E/BufferItemConsumer: [ImageReader-1280x720f23m1-28640-0] Failed to release buffer: Unknown error -1 (1)
+06-05 14:41:01.731 28640-29134/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.739 28640-29134/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.740 28640-28661/com.tc.tar.demo D/OpenGLRenderer:   HWUI Binary is  enabled
+06-05 14:41:01.741 28640-29134/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.744 28640-28779/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.757 28640-28779/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:01.788 28640-28661/com.tc.tar.demo D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+06-05 14:41:01.798 28640-29136/com.tc.tar.demo D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+06-05 14:41:01.800 28640-29136/com.tc.tar.demo D/GLImage: =================================================================
+    all active attributes for program 3
+    number of active attribs: 2
+    max attrib length: 9
+    name: texCoord
+    size: 0
+    type: 0, unknown
+    name: position
+    size: 0
+    type: 0, unknown
+    =================================================================
+    =================================================================
+    all active uniforms for program 3
+    number of active uniforms: 3
+    max uniform length: 10
+    name: uvtexture
+    size: 0
+    type: 0, unknown
+06-05 14:41:01.801 28640-29136/com.tc.tar.demo D/GLImage: name: ytexture
+    size: 0
+    type: 0, unknown
+    name: u_Matrix
+    size: 0
+    type: 0, unknown
+    =================================================================
+06-05 14:41:01.803 28640-29136/com.tc.tar.demo D/GLObjModel: GLObjModel glInit context is null? : false
+06-05 14:41:01.813 28640-29136/com.tc.tar.demo D/GLObjModel: GLObjModel glInit
+06-05 14:41:01.818 28640-28661/com.tc.tar.demo D/OpenGLRenderer:   HWUI Binary is  enabled
+06-05 14:41:01.842 28640-28661/com.tc.tar.demo W/libEGL: EGLNativeWindowType 0x7fa19c2010 disconnect failed
+06-05 14:41:01.842 28640-28661/com.tc.tar.demo D/OpenGLRenderer: endAllActiveAnimators on 0x7f9262b800 (RippleDrawable) with handle 0x7f91648320
+06-05 14:41:01.849 28640-28640/com.tc.tar.demo W/InputMethodManager: startInputReason = 1
+06-05 14:41:02.158 28640-29134/com.tc.tar.demo W/GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2080000
+06-05 14:41:02.341 28640-29136/com.tc.tar.demo D/GLImage: onViewportChanged w&h: 1920 1080
+06-05 14:41:02.346 28640-29136/com.tc.tar.demo E/GLImage: visible_x 2 :1.0
+06-05 14:41:02.349 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:02[tar_config.cpp::loadTARConfig::128]|INFO|Tar load config from path: /storage/emulated/0/Android/data/com.tc.tar.demo/cache/tar_conf.cfg, marker num: 0 ids: 
+06-05 14:41:02.349 28640-29136/com.tc.tar.demo D/TARMarkerNative: tarVIOInitialize ret: 0
+06-05 14:41:04.715 28640-28640/com.tc.tar.demo I/InputTransport: L4:137372-703d188 com.tc.tar.demo/com.tc.tar.demo.VoTrackingActivity (client)-1
+06-05 14:41:04.749 28640-28640/com.tc.tar.demo D/VoTrackingActivity: onSingleTapUp
+06-05 14:41:04.749 28640-28640/com.tc.tar.demo I/InputTransport: L4:137374-703d188 com.tc.tar.demo/com.tc.tar.demo.VoTrackingActivity (client)-1
+06-05 14:41:04.777 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_target_track_handle.cpp::addTargetPose::577]|INFO|Tar marker search add image, marker size: 320-180, resize: 320-180, total time cost: 17
+06-05 14:41:04.778 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_target_track.cpp::doTrackingEstimate::163]|INFO|Frame: 10813, Tar target region marker track success, time: 20, scale: 1, position: 596-361.5
+    2018-06-05 14:41:04[tar_marker_native.cpp::Java_com_tencent_tar_jni_TARMarkerNative_tarVIOGetTargetRectVP::704]|INFO|tarVIOGetTargetRectVP: 21, ret: 0
+06-05 14:41:04.780 28640-29136/com.tc.tar.demo D/VoTracking: trackVoTarget: success, scale=1.000000)
+    computeModelPointScale: sx=0.811858, sy=0.769902, scale=0.625051
+06-05 14:41:04.803 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::343]|INFO|Frame:	10814	1	1	0	1	1	11.0462	-0.0826271	0.0631317	11.0457
+    2018-06-05 14:41:04[tar_target_track.cpp::doTrackingEstimate::163]|INFO|Frame: 10814, Tar target region marker track success, time: 15, scale: 1, position: 594.693-361.63
+    2018-06-05 14:41:04[tar_marker_native.cpp::Java_com_tencent_tar_jni_TARMarkerNative_tarVIOGetTargetRectVP::704]|INFO|tarVIOGetTargetRectVP: 16, ret: 0
+06-05 14:41:04.804 28640-29136/com.tc.tar.demo D/VoTracking: trackVoTarget: success, scale=1.000000)
+06-05 14:41:04.817 28640-29136/com.tc.tar.demo D/VoTrackingActivity: TrackingPoint: (x, y) = (892.039917, 542.445190)
+06-05 14:41:04.845 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::336]|INFO|Frame:	10815, scale info:	0.998872	1	0.998926	148.227	90.4494	148.673	90.4075	148.248	90.4474
+    2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::343]|INFO|Frame:	10815	1	0.998926	0.112784	1	1	11.0587	-0.0855684	0.0634631	11.0582
+    2018-06-05 14:41:04[tar_target_track.cpp::doTrackingEstimate::163]|INFO|Frame: 10815, Tar target region marker track success, time: 18, scale: 0.998926, position: 592.908-361.798
+    2018-06-05 14:41:04[tar_marker_native.cpp::Java_com_tencent_tar_jni_TARMarkerNative_tarVIOGetTargetRectVP::704]|INFO|tarVIOGetTargetRectVP: 19, ret: 0
+06-05 14:41:04.846 28640-29136/com.tc.tar.demo D/VoTracking: trackVoTarget: success, scale=0.998926)
+06-05 14:41:04.859 28640-29136/com.tc.tar.demo D/VoTrackingActivity: TrackingPoint: (x, y) = (889.361572, 542.696594)
+06-05 14:41:04.891 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::336]|INFO|Frame:	10816, scale info:	1.00602	0.99839	1.00508	146.656	90.8788	148.036	90.4674	146.825	90.8284
+    2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::343]|INFO|Frame:	10816	0.998926	1.00508	0.710219	0.998926	1	10.9801	-0.0940955	0.065695	10.9795
+    2018-06-05 14:41:04[tar_target_track.cpp::doTrackingEstimate::163]|INFO|Frame: 10816, Tar target region marker track success, time: 24, scale: 1.00508, position: 586.622-363.515
+06-05 14:41:04.892 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_marker_native.cpp::Java_com_tencent_tar_jni_TARMarkerNative_tarVIOGetTargetRectVP::704]|INFO|tarVIOGetTargetRectVP: 26, ret: 0
+06-05 14:41:04.892 28640-29136/com.tc.tar.demo D/VoTracking: trackVoTarget: success, scale=1.005080)
+06-05 14:41:04.900 28640-29136/com.tc.tar.demo D/VoTrackingActivity: TrackingPoint: (x, y) = (879.933655, 545.272766)
+06-05 14:41:04.925 28640-29136/com.tc.tar.demo D/TarSDKLog: 2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::336]|INFO|Frame:	10817, scale info:	0.986903	1.00994	0.991893	148.082	90.7792	145.644	91.1369	147.545	90.8581
+    2018-06-05 14:41:04[tar_target_proc_handle.cpp::getUpdateResultReloc::343]|INFO|Frame:	10817	1.00508	0.991893	1.80844	1.00508	1	11.1928	-0.0876635	0.0663199	11.1923
+    2018-06-05 14:41:04[tar_target_track.cpp::doTrackingEstimate::163]|INFO|Frame: 10817, Tar target region marker track success, time: 18, scale: 0.991893, position: 592.329-363.117
+    2018-06-05 14:41:04[tar_marker_native.cpp::Java_com_tencent_tar_jni_TARMarkerNative_tarVIOGetTargetRectVP::704]|INFO|tarVIOGetTargetRectVP: 19, ret: 0
+06-05 14:41:04.926 28640-29136/com.tc.tar.demo D/VoTracking: trackVoTarget: success, scale=0.991893)
+06-05 14:41:04.934 28640-29136/com.tc.tar.demo D/VoTrackingActivity: TrackingPoint: (x, y) = (888.494019, 544.675049)
+06-05 14:41:0
